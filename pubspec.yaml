@@ -1,0 +1,26 @@
+name: Video_catcher
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.13.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  youtube_explode_dart: ^3.1.0 #Extrae y descarga de youtube sin API keys
+  dio: ^5.11.1 #Cliente HTTP para descargar enlaces web
+  path_provider: ^2.1.6 #Obtiene rutas de almacenamiento local
+  permission_handler: ^13.0.2 #Permisos para gestionar almacenamiento Android/iOS
+  ffmpeg_kit_flutter_new_min_gpl: ^2.6.2 #Procesamiento de video y audio
+  webview_flutter: ^4.14.1
+  webview_all_windows: ^1.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
