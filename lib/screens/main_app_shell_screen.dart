@@ -1,5 +1,5 @@
 import 'package:Video_catcher/downloadDispatcher.dart';
-import 'package:Video_catcher/sniffer.dart';
+import 'package:Video_catcher/screens/video_sniffer_screen.dart';
 import 'package:flutter/material.dart';
 
 class MainAppShell extends StatefulWidget {

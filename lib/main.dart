@@ -1,4 +1,4 @@
-import 'package:Video_catcher/mainAppShell.dart';
+import 'package:Video_catcher/screens/main_app_shell_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:Video_catcher/permission.dart';
 
